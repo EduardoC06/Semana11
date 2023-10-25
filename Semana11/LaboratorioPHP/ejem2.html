@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Caluclo de notas</h1>
+    <form method="post" action="notas.php">
+        <table>
+            <tr>
+                <td>Curso:</td>
+                <td>
+                    <select name="curso" >
+                        <option>Principios de algoritmos</option>
+                        <option>Taller de programacion web</option>
+                        <option>Herramientas de informacion</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Ingrese nota 1</td>
+                <td><input type="text" name="nota1"></td>
+            </tr>
+            <tr>
+                <td>Ingrese nota 2</td>
+                <td><input type="text" name="nota2"></td>
+            </tr>
+            <tr>
+                <td>Ingrese nota 3</td>
+                <td><input type="text" name="nota3"></td>
+            </tr>            
+        </table>
+        <tr><input type="submit" value="Promediar"></tr>
+    </form>
+</body>
+</html>

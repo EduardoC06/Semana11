@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="ejercicio2.php" target="resultado">
+        <table>
+            <tr>
+                <td>Ingresar nombre </td>
+                <td><input type="text" name="nombre"></td>
+            </tr>
+            <tr>
+                <td>Categoria: </td>
+                <td>
+                    <select name="categoria" >
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Horas trabajadas</td>
+                <td><input type="text" name="hora"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Calcular">
+    </form>
+    <br>
+    <iframe name="resultado" width="400" height="200"></iframe>
+
+</body>
+</html>
